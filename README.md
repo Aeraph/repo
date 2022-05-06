@@ -20,3 +20,6 @@ A list of non-standard C/C++ libraries, if any, that are used in your work and i
 - None
 
 Compilation and execution instructions. Simply put, this serves like a "Quick start" of your game.
+
+- g++ -pedantic-errors -std=c++11 TreasureHunt.cpp Adventure.cpp Boss.cpp Status.cpp -o TH
+- ./TH
